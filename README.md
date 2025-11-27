@@ -1,3 +1,3 @@
 n8n.project 
 
-new feature: feature.
+new feature: new_feature_file.md was added
