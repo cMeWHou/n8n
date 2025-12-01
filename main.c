@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-int add(int a, int b) {
-    return a + b;
-}
+extern int add(int a, int b);
+extern int sub(int a, int b);
 
 int main(void) {
     printf("Program is started\n");
@@ -12,6 +11,9 @@ int main(void) {
 
     scanf("%d %d", &a, &b);
     printf("Result of summation: %d\n", add(a, b));
+
+    scanf("%d %d", &a, &b);
+    printf("Result of subtraction: %d\n", sub(a, b));
 
     printf("Program is finished\n");
 
